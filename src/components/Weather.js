@@ -19,6 +19,7 @@ const Weather = () => {
 
     const[showMyComponent,setShowMyComponent] = useState(false);
 
+    // get weather data from api 
 
 
     const getWeatherData = async(city,country) => {
